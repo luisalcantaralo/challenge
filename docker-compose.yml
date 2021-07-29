@@ -1,0 +1,38 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+services:
+    api:
+        build: .
+        ports:
+            - "3000:3000"
+        depends_on: 
+            - "db"
+        links:
+            - "db"
+        environment:
+            DB_PASSWORD: 'example'
+            DB_USER: 'postgres'
+            DB_NAME: 'challenge'
+            DB_HOST: 'postgres'
+        networks:
+            - api-postgres
+            
+    db:
+        image: postgres
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: example    
+        ports:
+            - 5432:5432
+        networks:
+            - api-postgres
+            - centos-postgres
+    centos:
+        image: centos
+        networks: 
+            - centos-postgres
+networks:
+    api-postgres:
+        driver: bridge
+    centos-postgres:
+        driver: bridge
