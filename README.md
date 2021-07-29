@@ -18,6 +18,7 @@
 
 1) Start containers
 ```
+local-machine$ docker-compose build
 local-machine$ docker-compose up
 ```
 2) Run CentOS container 
