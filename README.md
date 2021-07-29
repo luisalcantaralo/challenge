@@ -44,13 +44,13 @@ centos-container# python3 init.py
 
 Routes:
 - [ ] /employees 
-- [ ] GET: /, /:id
+- [ ] GET: / /:id
 - [ ] POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] DELETE: /:id
 ##
 - [ ] /departments 
-- [ ] GET: /, /:id
+- [ ] GET: / /:id
 - [ ] POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] DELETE: /:id
