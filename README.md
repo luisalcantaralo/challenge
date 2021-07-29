@@ -45,19 +45,19 @@ centos-container# python3 init.py
 Routes:
 - [ ] /employees 
 - [ ] GET: / /simple /:id
-- [ ] POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
+- [ ] POST: / {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"} /department {"employee_id":""ID, "department_id":"ID"}
 - [ ] PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] DELETE: /:id
 ##
 - [ ] /departments 
 - [ ] GET: / /:id
-- [ ] POST: {"company_id":"ID", "department_name":"DN"}
+- [ ] POST: / {"company_id":"ID", "department_name":"DN"}
 - [ ] PUT: /:id {"company_id":"ID", "department_name":"DN"}
 - [ ] DELETE: /:id
 ##   
 - [ ] /companies (GET, POST, PUT, DELETE)
-- [ ] GET: /, /:id
-- [ ] POST: {"company_name":"CN"}
+- [ ] GET: / /:id
+- [ ] POST: / {"company_name":"CN"}
 - [ ] PUT: /:id {"company_name":"CN"}
 - [ ] DELETE: /:id
 
