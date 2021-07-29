@@ -13,6 +13,8 @@
 - [ ] Express.js 4.17.1
 - [ ] CentOS container (latest image)
 - [ ] Postgres container (latest image)
+- [ ] Docker
+- [ ] Docker Compose
 
 ## Usage
 
