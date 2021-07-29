@@ -41,3 +41,15 @@ centos-container# ./install_python.sh
 centos-container# python3 init.py
 ```
 6) Access to api is http://localhost:3000
+
+Routes:
+- [ ] /employees 
+      GET: /, /:id
+      POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
+      PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
+      DELETE: /:id
+- [ ] /departments 
+      GET, POST, PUT, DELETE
+- [ ] /companies (GET, POST, PUT, DELETE)
+      GET, POST, PUT, DELETE
+
