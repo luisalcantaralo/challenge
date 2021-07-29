@@ -13,11 +13,14 @@
 - [ ] Express.js 4.17.1
 - [ ] CentOS container (latest image)
 - [ ] Postgres container (latest image)
+- [ ] Docker
+- [ ] Docker Compose
 
 ## Usage
 
 1) Start containers
 ```
+local-machine$ docker-compose build
 local-machine$ docker-compose up
 ```
 2) Run CentOS container 
