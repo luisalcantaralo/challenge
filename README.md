@@ -22,7 +22,7 @@ local-machine$ docker-compose up
 ```
 2) Run CentOS container 
 ```
-local-machine$ docker run --network final_centos-postgres -it centos /bin/bash
+local-machine$ docker run --network challenge_centos-postgres -it centos /bin/bash
 ```
 3) Copy data-ingestion folder to CentOS container, to get container id: ``` local-machine$ docker ps ```
 ```
