@@ -48,13 +48,13 @@ Routes:
 - [ ] POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] DELETE: /:id
--
+##
 - [ ] /departments 
 - [ ] GET: /, /:id
 - [ ] POST: {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] PUT: /:id {"first_name":"Name", "last_name":"LN", "phone1":"P1", "phone2":"P2", "email":"luis@email.com", "address":"Address", "city":"City", "state":"ST", "zip":"11000"}
 - [ ] DELETE: /:id
-      
+##   
 - [ ] /companies (GET, POST, PUT, DELETE)
 - [ ] GET: /, /:id
 - [ ] POST: {"company_name":"CN"}
